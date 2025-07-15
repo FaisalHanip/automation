@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Informasi Teknologi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="info-container">
+    <h1>Selamat Datang!</h1>
+    <p>Berikut adalah beberapa informasi tentang teknologi:</p>
+    <ul>
+      <li>AI (Artificial Intelligence) semakin digunakan di berbagai bidang.</li>
+      <li>Teknologi 5G membawa kecepatan internet super cepat.</li>
+      <li>Blockchain digunakan untuk keamanan data dan cryptocurrency.</li>
+      <li>Cloud computing membuat penyimpanan data lebih fleksibel.</li>
+    </ul>
+    <button id="logoutButton">Keluar</button>
+  </div>
+
+  <script>
+    // Cek apakah user sudah login
+    //if (localStorage.getItem("isLoggedIn") !== "true") {
+      //window.location.href = "index.html";
+    //}
+
+    // Fungsi logout
+    document.getElementById("logoutButton").addEventListener("click", function() {
+      localStorage.removeItem("isLoggedIn");
+      window.location.href = "index.html";
+    });
+  </script>
+</body>
+</html>

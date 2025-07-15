@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to right, #56ccf2, #2f80ed);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container, .info-container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+  width: 320px;
+  max-width: 90%;
+}
+
+.login-container h2,
+.info-container h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+label {
+  margin-top: 10px;
+  display: block;
+  color: #444;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #2f80ed;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1c60c7;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
+
+ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
