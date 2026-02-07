@@ -8,7 +8,7 @@ def test_example_domain():
     options.add_argument("--disable-dev-shm-usage")
 
     driver = webdriver.Chrome(options=options)
-    driver.get("https://github.com/FaisalHanip/automation")
+    driver.get("https://faisalhanip.github.io/automation/")
 
     assert "Login sederhana" in driver.title
 
