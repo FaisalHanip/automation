@@ -28,4 +28,4 @@ jobs:
 
     - name: Run Selenium Tests
       run: |
-        python -m pytest -vv --collect-only
+        python -m pytest tests/testselenium.py
