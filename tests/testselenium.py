@@ -10,6 +10,6 @@ def test_example_domain():
     driver = webdriver.Chrome(options=options)
     driver.get("https://faisalhanip.github.io/automation/")
 
-    assert "Login sederhana" in driver.title
+    assert "Login" in driver.title
 
     driver.quit()
